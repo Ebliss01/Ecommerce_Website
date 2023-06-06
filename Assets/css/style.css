@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*logo sizing*/
+.site_logo{
+    position: absolute;
+    width: 113px;
+    height: 27px;
+    top: 34px;
+    left: 20px;
+}
+
+/*hero sizing*/
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('../image/hero.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -60px;
+}
+
+/*hero page styling*/
+.hero-page {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 35px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+/*hero page sizing*/
+.hero-page h1{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.main-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu li {
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+.main-menu a{
+    color: whitesmoke;
+}
+
+.btn {
+    font-family: Dosis;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 0.6px solid black;
+    color:black;
+}
+/*main nav8*/
+.nav_icon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: whitesmoke;
+
+}
+/*desktop*/
+@media (min-width: 900px) {
+    .main-menu {
+        display: none;
+    }
+
+    .hero-page {
+        width: 28%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .nav_icon {
+        display: flex;
+        align-items: center;
+    }
+}
+/*Mobile*/
+@media (min-width: 900px) {
+   .header.hero{
+        width: 450px;
+        padding: 45px 30px;
+    }
+
+    .hero-page h1{
+        margin-right: -50%;
+        width: 380px;
+        margin: 0 auto;
+    }
+}
+
+
+
+          
+                                      
+
+
