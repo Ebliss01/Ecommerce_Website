@@ -1,57 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tmart | Ecommerce</title>
-    <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./Assets/image/globeicon.jpg.png">
-    <script src="https://unpkg.com/feather-icons"></script>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="Author" content="Derek Fidoro">
+        <meta name="Keyword" content="Bags, Chairs, Baskets, Table">
+        <meta name="Description" content="We sell Household materials with free delivery option">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Poppins:ital,wght@0,200;0,300;1,100&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/cee800c94b.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <link rel="shortcut icon" href="Assets\images\logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="./Assets/css/hero.css">
+        <link rel="stylesheet" href="./Assets/css/text.css">
+        <link rel="stylesheet" href="./Assets/css/recent_items.css">
+        <link rel="stylesheet" href="./Assets/css/best_products.css">
+        <title>TMART | Ecommerce</title>
+    </head>
 
-<body>
-    <!--header section-->
-    <header class="header">
-        <div class="container">
-           <div class="site_logo">
-              <a href="#"><img src="./Assets/image/logo_white.png" alt="site_logo"></a>
-           </div>
-        </div>
+    <body>
 
-    <!--nav section-->
-        <nav class="main-menu">
-            <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Shop</a></li> 
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    
-    <!--menuicon section-->
-    <section class="nav_icon">
-        <a href="#"><i data-feather="user" class="nav_icon"></i></a>
-        <a href="#"><i data-feather="shopping-cart" class="nav_icon"></i></a>
-        <a href=""><i data-feather="menu" class="nav_icon"></i></a>
-    </section>
+                <!--site logo section-->
+        <section class="hero">
+            <div class="container">
+                <div class="site-logo">
+                    <img src="./new-assets-images/logo_white.png" alt="site_logo">
+                </div>
 
-    <script>
-        feather.replace()
-    </script>
+                <!-- desktop -->
+                <nav class="main_nav">
+                    <ul>
+                        <li><a href="#">Portfolio</a></li> 
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
 
-    <!--hero section-->
-    <section class="hero">
-        <div class="hero-page">
-            <h1>New Product Collections</h1>
-            <a href="#" class="btn">Shop Now</a>
-        </div>
-    </section>
+                <!-- navbar -->
+                <div class="nav-icons">
+                    <i data-feather="user" class="navicon"></i>
+                    <i data-feather="shopping-cart" class="navicon"></i>
+                    <i data-feather="menu" class="navicon"></i>
 
-    </header>                     
+                    <!-- script for adding feather icon -->
+                    <script>
+                        feather.replace()
+                    </script>
+                </div>
+
+            </div>
+
+            <!-- overlay -->
+            <div class="overlay"></div>
+
+            <!-- hero page -->
+            <div class="sportlight">
+               <div class="sportlight-content">
+                <h1>New Product Collection</h1>
+                <a href="#" class="shopnow_btn">SHOP NOW</a>
+               </div>
+            </div>
+        </section>
+
+
+            <!-- message section -->
+        <section class="text">
+                <div class="text_content one">
+                    <h3>New Funiture Collection</h3>
+                    <a href="#">SHOP NOW</a>
+                </div>
+
+                <div class="text_content two">
+                    <h3>New Basket Collection</h3>
+                    <a href="#">SHOP NOW</a>
+                </div>
+        </section>
 </body>
-</html>                                                   
 
+</html> 
