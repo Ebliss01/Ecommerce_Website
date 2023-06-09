@@ -160,7 +160,7 @@
     }
 }
 
-    /* For desktop */
+    /* desktop */
 @media (min-width:1024px) {
     .products{
         grid-template-columns: (4, 1fr);
