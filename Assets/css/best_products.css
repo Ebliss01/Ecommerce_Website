@@ -41,7 +41,7 @@
 }
 
 .product-item.one{
-    background: url('../images/6.webp');
+    background: url('../images/pr1.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -50,7 +50,7 @@
 }
 
 .product-item.two{
-    background: url('../images/7.webp');
+    background: url('../images/pr2.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -59,7 +59,7 @@
 }
 
 .product-item.three{
-    background: url('../images/9.webp');
+    background: url('../images/pr3.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -68,7 +68,7 @@
 }
 
 .product-item.four{
-    background: url('../images/10.webp');
+    background: url('../images/pr4.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -77,7 +77,7 @@
 }
 
 .product-item.five{
-    background: url('../images/11.webp');
+    background: url('../images/pr5.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -86,7 +86,7 @@
 }
 
 .product-item.six{
-    background: url('../images/12.webp');
+    background: url('../images/pr6.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -95,7 +95,7 @@
 }
 
 .product-item.seven{
-    background: url('../images/13.webp');
+    background: url('../images/pr7.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
@@ -104,7 +104,7 @@
 }
 
 .product-item.eight{
-    background: url('../images/14.webp');
+    background: url('../images/pr8.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
