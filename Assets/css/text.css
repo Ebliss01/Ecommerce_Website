@@ -1,0 +1,83 @@
+.text{
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1rem;
+}
+
+.text_content{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    height: 180px;
+    padding: 0 .8rem;
+}
+
+.text_content.one{
+    background: url('../images/furn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text_content.two{
+    background: url('../images/bask.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text_content h3{
+font-family: 'poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #000000;
+width: 50%;
+}
+
+.text_content a{
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 33px;
+text-decoration-line: underline;
+color: #000000;
+width: 30%;
+text-align: center;
+position: relative;
+
+}
+
+.text_content a::after{
+    content:'';
+    width: 25px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: -30%;
+    bottom: 40%;
+    
+}
+    /* For tablet */
+@media (min-width:768px) {
+    .text{
+        flex-direction: row;
+    }
+}
+    /* for desktop */
+@media (min-width:1024px) {
+    .text_content{
+        height: 300px;
+    }
+}
