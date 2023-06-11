@@ -1,0 +1,132 @@
+/* Basic News Structure */
+.container{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.headline h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'poppins',sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    color:#000000;
+    margin-top: 50px;
+}
+
+.news-item{
+    height: 320px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.news .news1{
+    background-image: url('../images/b1.jpg');
+    background-repeat: no-repeat;
+    
+    
+}
+
+.news .news2{
+    background-image: url('../images/b2.jpg');
+    background-repeat: no-repeat;
+}
+
+.news .news3{
+    background-image: url('../images/b3.jpg');
+    background-repeat: no-repeat;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+.news  .date{
+    background-color: whitesmoke;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.news .day-month{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-style: 1px solid rgba(180, 180, 180, 0.171);
+    padding: 9px;
+    width: 50px;
+    height: 50px;
+   
+}
+
+.news .day{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.news .month{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.newstitle {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.news .text{
+    margin-bottom: 20px;
+}
+
+.rmtext {
+    text-transform: uppercase;
+    text-decoration: underline;
+    position: relative;
+    left: 15px;
+}
+
+a {
+    color: black;
+}
+
+.news .line {
+    position: absolute;
+    bottom: 10px;
+    height: 1p;
+    background-color: black;
+    width: 10%;
+    left: 100px;
+
+}
+
+/* Mobile */
+@media (max-width:700px) {
+    .news-item{
+        flex-basis: 70%;
+    }
+}
+
+/* Table */
+@media (min-width:700px) {
+    .news-item{
+        flex-basis: calc(50% - 20px)
+    }
+}
+
+/* Desktop */
+@media (min-width:901px) {
+    .news-item{
+        flex-basis: calc(33.33% - 15px)
+    }
+}
